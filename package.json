@@ -1,16 +1,16 @@
 {
   "name": "contrast-foreground",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "contrast foreground color",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test",
-    "version" : "git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "files": [
     "lib/**/*"
@@ -19,7 +19,10 @@
     "type": "git",
     "url": "git+https://github.com/TyThompson213/contrast-foreground.git"
   },
-  "keywords": ["color", "contrast"],
+  "keywords": [
+    "color",
+    "contrast"
+  ],
   "author": "Ty Thompson",
   "license": "ISC",
   "bugs": {
